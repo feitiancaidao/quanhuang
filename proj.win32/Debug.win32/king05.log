@@ -1,0 +1,292 @@
+﻿生成启动时间为 2016/9/28 17:49:02。
+     1>项目“D:\cocos2dx\cocos2d-x-2.2.21\projects\QH-cocos2dx2.2.2_bak\proj.win32\king05.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1491,5): warning : The referenced project '..\..\..\..\cocos2dx\proj.win32\cocos2d.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1491,5): warning : The referenced project '..\..\..\..\CocosDenshion\proj.win32\CocosDenshion.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1491,5): warning : The referenced project '..\..\..\..\extensions\proj.win32\libExtensions.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1491,5): warning : The referenced project '..\..\..\..\external\Box2D\proj.win32\Box2D.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1491,5): warning : The referenced project '..\..\..\..\external\chipmunk\proj.win32\chipmunk.vcxproj' does not exist.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\cocos2dx\cocos2d-x-2.2.21\projects\QH-cocos2dx2.2.2_bak\proj.win32\..\..\..\cocos2dx" /I"D:\cocos2dx\cocos2d-x-2.2.21\projects\QH-cocos2dx2.2.2_bak\proj.win32\..\..\..\cocos2dx\include" /I"D:\cocos2dx\cocos2d-x-2.2.21\projects\QH-cocos2dx2.2.2_bak\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"D:\cocos2dx\cocos2d-x-2.2.21\projects\QH-cocos2dx2.2.2_bak\proj.win32\..\..\..\cocos2dx\platform\win32" /I"D:\cocos2dx\cocos2d-x-2.2.21\projects\QH-cocos2dx2.2.2_bak\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"D:\cocos2dx\cocos2d-x-2.2.21\projects\QH-cocos2dx2.2.2_bak\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"D:\cocos2dx\cocos2d-x-2.2.21\projects\QH-cocos2dx2.2.2_bak\proj.win32\..\..\..\external" /I"D:\cocos2dx\cocos2d-x-2.2.21\projects\QH-cocos2dx2.2.2_bak\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"D:\cocos2dx\cocos2d-x-2.2.21\projects\QH-cocos2dx2.2.2_bak\proj.win32\..\..\..\CocosDenshion\include" /I"D:\cocos2dx\cocos2d-x-2.2.21\projects\QH-cocos2dx2.2.2_bak\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AboutScene.cpp ..\Classes\AppDelegate.cpp ..\Classes\ARPG.cpp ..\Classes\BaseLayer.cpp ..\Classes\BeatEffect.cpp ..\Classes\BeginLayer.cpp ..\Classes\BloodBar.cpp ..\Classes\Boss.cpp ..\Classes\Bullet.cpp ..\Classes\Card.cpp ..\Classes\Counter.cpp ..\Classes\Dalibao.cpp ..\Classes\Ef.cpp ..\Classes\Effect.cpp ..\Classes\Flower.cpp ..\Classes\Game.cpp ..\Classes\GameData.cpp ..\Classes\GameOverScene.cpp ..\Classes\GameScene.cpp ..\Classes\GlobleUnits.cpp ..\Classes\GoldCounterLayer.cpp ..\Classes\GreyNode.cpp ..\Classes\GuoduScene.cpp ..\Classes\Hero.cpp ..\Classes\Hero_Help.cpp ..\Classes\HubLayer.cpp ..\Classes\HubShop.cpp ..\Classes\Jihuo.cpp ..\Classes\LoadingLayer.cpp ..\Classes\LoadingScene.cpp ..\Classes\MakeNumbers.cpp ..\Classes\MenuLayer.cpp ..\Classes\MenuScene.cpp ..\Classes\Mode.cpp ..\Classes\Monster.cpp ..\Classes\MonsterAIState.cpp ..\Classes\NpcHelp.cpp ..\Classes\openalertJni.cpp ..\Classes\PersonalAudioEngine.cpp ..\Classes\PlayEffect.cpp ..\Classes\PlayerHeadUI.cpp ..\Classes\Prop.cpp ..\Classes\RemoteMonster.cpp ..\Classes\SelectScene.cpp ..\Classes\ShopBuy.cpp ..\Classes\ShopBuy2.cpp ..\Classes\ShopBuyLayer.cpp ..\Classes\ShopScene.cpp ..\Classes\SkillObject.cpp ..\Classes\SneakyButton.cpp ..\Classes\SneakyButtonSkinnedBase.cpp ..\Classes\StateMachine.cpp ..\Classes\StringUtil.cpp ..\Classes\TeachScene.cpp ..\Classes\Tips.cpp ..\Classes\TipStory.cpp ..\Classes\Wave.cpp ..\Classes\XMLData.cpp ..\Classes\XXIconv.cpp main.cpp
+         main.cpp
+         XXIconv.cpp
+         XMLData.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Wave.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         TipStory.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\tipstory.cpp(44): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\tipstory.cpp(457): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\tipstory.cpp(460): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\tipstory.cpp(462): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\tipstory.cpp(464): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\tipstory.cpp(466): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\tipstory.cpp(486): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\tipstory.cpp(497): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\tipstory.cpp(503): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\tipstory.cpp(529): warning C4305: “参数”: 从“double”到“float”截断
+         Tips.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         TeachScene.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\teachscene.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         StringUtil.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\stringutil.cpp(145): warning C4018: “<=”: 有符号/无符号不匹配
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\stringutil.cpp(153): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\stringutil.cpp(158): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\stringutil.cpp(204): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\stringutil.cpp(219): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\stringutil.cpp(234): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\stringutil.cpp(246): warning C4018: “<”: 有符号/无符号不匹配
+         StateMachine.cpp
+         SneakyButtonSkinnedBase.cpp
+         SneakyButton.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         SkillObject.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\skillobject.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ShopScene.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ShopBuyLayer.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ShopBuy2.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\shopbuy2.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ShopBuy.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\shopbuy.cpp(250): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\shopbuy.cpp(558): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\shopbuy.cpp(564): warning C4305: “参数”: 从“double”到“float”截断
+         SelectScene.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         RemoteMonster.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\remotemonster.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Prop.cpp
+         PlayerHeadUI.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\playerheadui.cpp(23): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\playerheadui.cpp(40): warning C4305: “参数”: 从“double”到“float”截断
+         正在生成代码...
+         正在编译...
+         PlayEffect.cpp
+         PersonalAudioEngine.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         openalertJni.cpp
+         NpcHelp.cpp
+         MonsterAIState.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monsteraistate.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monsteraistate.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Monster.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.cpp(11): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.cpp(14): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monsteraistate.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.cpp(148): warning C4305: “初始化”: 从“double”到“float”截断
+         Mode.cpp
+         MenuScene.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MenuLayer.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\menulayer.cpp(75): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+         MakeNumbers.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\makenumbers.cpp(39): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\makenumbers.cpp(78): warning C4018: “<”: 有符号/无符号不匹配
+         LoadingScene.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         LoadingLayer.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Jihuo.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\jihuo.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         HubShop.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         HubLayer.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hublayer.cpp(496): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hublayer.cpp(525): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hublayer.cpp(576): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hublayer.cpp(587): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hublayer.cpp(681): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hublayer.cpp(703): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hublayer.cpp(706): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hublayer.cpp(938): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hublayer.cpp(939): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hublayer.cpp(940): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hublayer.cpp(941): warning C4305: “参数”: 从“double”到“float”截断
+         Hero_Help.cpp
+         Hero.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hero.cpp(242): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hero.cpp(391): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hero.cpp(520): warning C4805: “!=”: 在操作中将类型“bool”与类型“int”混合不安全
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hero.cpp(610): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hero.cpp(1319): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\hero.cpp(1739): warning C4305: “参数”: 从“double”到“float”截断
+         GuoduScene.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         GreyNode.cpp
+         GoldCounterLayer.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\goldcounterlayer.cpp(44): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\goldcounterlayer.cpp(48): warning C4305: “参数”: 从“double”到“float”截断
+         正在生成代码...
+         正在编译...
+         GlobleUnits.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         GameScene.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamescene.cpp(305): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamescene.cpp(375): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamescene.cpp(1428): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamescene.cpp(1577): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamescene.cpp(1604): warning C4068: 未知的杂注
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamescene.cpp(1803): warning C4305: “参数”: 从“double”到“float”截断
+         GameOverScene.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gameoverscene.cpp(77): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gameoverscene.cpp(199): warning C4305: “参数”: 从“double”到“float”截断
+         GameData.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.cpp(286): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         Game.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Flower.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Effect.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Ef.cpp
+         Dalibao.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Counter.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\counter.cpp(80): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\counter.cpp(83): warning C4305: “参数”: 从“double”到“float”截断
+         Card.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Bullet.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Boss.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\boss.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monsteraistate.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\boss.cpp(140): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\boss.cpp(156): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\boss.cpp(320): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\boss.cpp(589): warning C4305: “参数”: 从“double”到“float”截断
+         BloodBar.cpp
+         BeginLayer.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\beginlayer.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         BeatEffect.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\beateffect.cpp(75): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\beateffect.cpp(79): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\beateffect.cpp(86): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\beateffect.cpp(92): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\beateffect.cpp(98): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\beateffect.cpp(104): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\beateffect.cpp(110): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\beateffect.cpp(135): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\beateffect.cpp(144): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\beateffect.cpp(148): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\beateffect.cpp(155): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\beateffect.cpp(161): warning C4305: “参数”: 从“double”到“float”截断
+         BaseLayer.cpp
+         ARPG.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monsteraistate.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\arpg.cpp(474): warning C4305: “参数”: 从“double”到“float”截断
+         AppDelegate.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\gamedata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         AboutScene.cpp
+     1>d:\cocos2dx\cocos2d-x-2.2.21\projects\qh-cocos2dx2.2.2_bak\classes\monster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\cocos2dx\cocos2d-x-2.2.21\Debug.win32\check-jiejiquanhuang.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\cocos2dx\cocos2d-x-2.2.21\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\cocos2dx\cocos2d-x-2.2.21\Debug.win32\check-jiejiquanhuang.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\cocos2dx\cocos2d-x-2.2.21\Debug.win32\check-jiejiquanhuang.lib" /MACHINE:X86 /SAFESEH Debug.win32\AboutScene.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\ARPG.obj
+         Debug.win32\BaseLayer.obj
+         Debug.win32\BeatEffect.obj
+         Debug.win32\BeginLayer.obj
+         Debug.win32\BloodBar.obj
+         Debug.win32\Boss.obj
+         Debug.win32\Bullet.obj
+         Debug.win32\Card.obj
+         Debug.win32\Counter.obj
+         Debug.win32\Dalibao.obj
+         Debug.win32\Ef.obj
+         Debug.win32\Effect.obj
+         Debug.win32\Flower.obj
+         Debug.win32\Game.obj
+         Debug.win32\GameData.obj
+         Debug.win32\GameOverScene.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\GlobleUnits.obj
+         Debug.win32\GoldCounterLayer.obj
+         Debug.win32\GreyNode.obj
+         Debug.win32\GuoduScene.obj
+         Debug.win32\Hero.obj
+         Debug.win32\Hero_Help.obj
+         Debug.win32\HubLayer.obj
+         Debug.win32\HubShop.obj
+         Debug.win32\Jihuo.obj
+         Debug.win32\LoadingLayer.obj
+         Debug.win32\LoadingScene.obj
+         Debug.win32\MakeNumbers.obj
+         Debug.win32\MenuLayer.obj
+         Debug.win32\MenuScene.obj
+         Debug.win32\Mode.obj
+         Debug.win32\Monster.obj
+         Debug.win32\MonsterAIState.obj
+         Debug.win32\NpcHelp.obj
+         Debug.win32\openalertJni.obj
+         Debug.win32\PersonalAudioEngine.obj
+         Debug.win32\PlayEffect.obj
+         Debug.win32\PlayerHeadUI.obj
+         Debug.win32\Prop.obj
+         Debug.win32\RemoteMonster.obj
+         Debug.win32\SelectScene.obj
+         Debug.win32\ShopBuy.obj
+         Debug.win32\ShopBuy2.obj
+         Debug.win32\ShopBuyLayer.obj
+         Debug.win32\ShopScene.obj
+         Debug.win32\SkillObject.obj
+         Debug.win32\SneakyButton.obj
+         Debug.win32\SneakyButtonSkinnedBase.obj
+         Debug.win32\StateMachine.obj
+         Debug.win32\StringUtil.obj
+         Debug.win32\TeachScene.obj
+         Debug.win32\Tips.obj
+         Debug.win32\TipStory.obj
+         Debug.win32\Wave.obj
+         Debug.win32\XMLData.obj
+         Debug.win32\XXIconv.obj
+         Debug.win32\main.obj
+     1>AboutScene.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         king05.vcxproj -> D:\cocos2dx\cocos2d-x-2.2.21\Debug.win32\check-jiejiquanhuang.exe
+     1>已完成生成项目“D:\cocos2dx\cocos2d-x-2.2.21\projects\QH-cocos2dx2.2.2_bak\proj.win32\king05.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:52.11
